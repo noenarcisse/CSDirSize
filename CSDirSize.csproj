@@ -6,11 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PublishAot>true</PublishAot>
-    <InvariantGlobalization>true</InvariantGlobalization>
-    <StackTraceSupport>false</StackTraceSupport>
-    <OptimizationPreference>Speed</OptimizationPreference>
-    <MetadataUpdaterSupport>false</MetadataUpdaterSupport>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dirsize</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
 </Project>
